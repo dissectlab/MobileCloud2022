@@ -1,25 +1,8 @@
 ## 3D Reconstruction with [openMVG](https://github.com/openMVG/openMVG) + [openMVS](https://github.com/cdcseacave/openMVS) + Background subtraction
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Installation
-
-1. Clone the repo
-
-   ```sh
-   git clone https://github.com/xiaojie-gc/3d-reconstruction.git
-   ```
-2. Install packages
-
-   ```sh
-   pip3 install -r requirements.txt
-   ```
-3. Modify reconstructor (i.e., MvgMvsPipeline.py)
-
-   ```sh 
-   CAMERA_SENSOR_DB_DIRECTORY = "your path"
+<!-- Reference -->
+## Paper Citation
+   [End-to-End Latency Optimization of Multi-view 3D Reconstruction for Disaster Response](https://ieeexplore.ieee.org/abstract/document/9904779)
+   
+In order to plan rapid response during disasters, first responder agencies often adopt `bring your own device' (BYOD) model with inexpensive mobile edge devices (e.g., drones, robots, tablets) for complex video analytics applications, e.g., 3D reconstruction of a disaster scene. Unlike simpler video applications, widely used Multi-view Stereo (MVS) based 3D reconstruction applications (e.g., openMVG/openMVS) are exceedingly time consuming, especially when run on such computationally constrained mobile edge devices. Additionally, reducing the reconstruction latency of such inherently sequential algorithms is challenging as unintelligent, application-agnostic strategies can drastically degrade the reconstruction (i.e., application outcome) quality making them useless. 
    ```
